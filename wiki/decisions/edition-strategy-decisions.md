@@ -28,8 +28,8 @@ A running log of decisions that are **settled** in the edition strategy. Each de
 **Reasoning:** Company-wide packaging architecture.
 **Source:** P&P DACI
 
-### 5. Single SKU (Service Collection) (Apr 2026)
-**Decision:** CSM is bundled in Service Collection across all paid tiers. Can't gate separately.
+### 5. Single SKU ([YOUR PRODUCT]) (Apr 2026)
+**Decision:** CSM is bundled in [YOUR PRODUCT] across all paid tiers. Can't gate separately.
 **Reasoning:** Customer interviews validated that simplicity of portfolio is a competitive advantage over ServiceNow's modular pricing.
 **Source:** P&P DACI, Monetisation hypotheses
 
@@ -51,7 +51,7 @@ A running log of decisions that are **settled** in the edition strategy. Each de
 **Rejected:** The data shows each tier serves a distinct buyer. Standard (PLG volume), Premium (mid-market operations), Enterprise (governance at scale). Collapsing loses the upgrade funnel.
 
 ### "Gate AI at Premium"
-**Rejected:** ServCo includes AI agents at Standard. This is a competitive differentiator — ServiceNow charges consumption, Zendesk charges $50 add-on. Removing it would be a step backwards.
+**Rejected:** [YOUR PRODUCT] includes AI agents at Standard. This is a competitive differentiator — ServiceNow charges consumption, Zendesk charges $50 add-on. Removing it would be a step backwards.
 
 ### "Add-ons for horizontal features"
 **Rejected:** Customer research says add-ons only work for narrow vertical features. ITAM, AIOps, IT Ops must go through editions.

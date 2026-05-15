@@ -1,6 +1,6 @@
 # PM Operating System
 
-A personal operating system for Product Managers, powered by AI agents. Built on [Rovo Dev](https://developer.atlassian.com/platform/rovo/dev/) and markdown. Originally inspired by [How I Built My Personal PM Operating System](https://hello.atlassian.net/wiki/spaces/CONF/blog/6520874773/How+I+Built+My+Personal+PM+Operating+System).
+A personal operating system for Product Managers, powered by AI agents. Built on [Rovo Dev](https://developer.atlassian.com/platform/rovo/dev/) and markdown. Originally inspired by [How I Built My Personal PM Operating System]([YOUR_CONFLUENCE_URL]).
 
 Your AI agent gets full context — goals, priorities, writing style, product knowledge, live data — and uses it to coach, draft, analyse, and ship alongside you.
 
@@ -137,7 +137,7 @@ Four recurring guides that keep the system healthy:
 |--------|-----------|-------------|
 | **daily-check** | Daily | Check Slack channels, Confluence mentions, context, responses needed, blockers |
 | **weekly-review** | Weekly | Process backlog, review goals, scan tasks, plan next week, kernel evolution check, memory hygiene |
-| **weekly-1-1-anand** | Weekly | Eisenhower matrix 1:1 prep on Confluence with status lozenges |
+| **weekly-1-1** | Weekly | Eisenhower matrix 1:1 prep on Confluence with status lozenges |
 | **monthly-l1-okr-update** | Monthly | Pull metrics from Atlas + SQL, score KRs (0.7–1.0), update Confluence scoring page |
 
 ## Skills
@@ -157,7 +157,7 @@ Four recurring guides that keep the system healthy:
 | **data-discovery** | Source routing (S360→Secoda→Socrates), known tables map, query templates, async workflow |
 | **analysis-artifacts** | Full artifact chain after data analysis: Databricks notebook → Lakeview dashboard → Confluence page |
 | **l1-okr-scoring** | Monthly OKR scoring — rules, data sources, milestone targets, Confluence update workflow |
-| **prep-1-1-anand** | Weekly 1:1 prep — Eisenhower matrix on Confluence with ADF formatting + status lozenges |
+| **prep-1-1** | Weekly 1:1 prep — Eisenhower matrix on Confluence with ADF formatting + status lozenges |
 | **apply-confluence-comments** | Apply your inline/footer comments from a page — interprets intent, applies changes, shows summary |
 | **browser-copilot** | Live browser via playwright-cli — admin workflows, API escape hatch, screen capture, recordings |
 | **create-agent** | Add new automated agents — frontmatter pattern, schedule options, conventions, Slack delivery |
@@ -173,7 +173,7 @@ Four recurring guides that keep the system healthy:
 | **design-prototyping** | Full product prototypes on Atlassian staging with Atlaskit, AI Gateway, and live URLs |
 | **forge-apps** | Build and deploy Forge apps to real Jira/JSM sites |
 | **in-session-orchestration** | Fan out work to multiple sub-agents in parallel within a live session (4× faster than sequential) |
-| **autoresearch** | Converts plain-English questions into spec YAML, drives cohort_builder.py + engine.py for ServCo/JSM analysis |
+| **autoresearch** | Converts plain-English questions into spec YAML, drives cohort_builder.py + engine.py for [YOUR PRODUCT]/JSM analysis |
 | **data-insight-checker-for-servco** | Sense-checks data insights against approved tables, metric definitions, causality rules, population filters |
 
 ## Structure
