@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Edition Strategy — Sequencing</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #F7F8F9;
+    padding: 32px;
+    color: #172B4D;
+  }
+
+  .disclaimer {
+    background: #DEEBFF;
+    border-left: 4px solid #0052CC;
+    border-radius: 4px;
+    padding: 12px 16px;
+    margin-bottom: 24px;
+    font-size: 13px;
+    color: #0052CC;
+  }
+
+  .timeline {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+
+  .phase-card {
+    background: white;
+    border-radius: 8px;
+    border-top: 4px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .phase-card.foundation { border-top-color: #0052CC; }
+  .phase-card.identity   { border-top-color: #6554C0; }
+  .phase-card.repricing  { border-top-color: #FF991F; }
+  .phase-card.differentiation { border-top-color: #36B37E; }
+
+  .phase-header {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .phase-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #172B4D;
+  }
+
+  .phase-lozenge {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 3px;
+    letter-spacing: 0.02em;
+    width: fit-content;
+  }
+
+  .lozenge-blue   { background: #DEEBFF; color: #0052CC; }
+  .lozenge-purple { background: #EAE6FF; color: #403294; }
+  .lozenge-yellow { background: #FFFAE6; color: #974F0C; }
+  .lozenge-green  { background: #E3FCEF; color: #006644; }
+
+  .phase-why {
+    font-size: 12px;
+    color: #5E6C84;
+    font-style: italic;
+    line-height: 1.5;
+  }
+
+  .phase-divider {
+    border: none;
+    border-top: 1px solid #EBECF0;
+    margin: 0;
+  }
+
+  .phase-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .phase-items li {
+    font-size: 13px;
+    color: #172B4D;
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.5;
+  }
+
+  .phase-items li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: #97A0AF;
+    font-size: 11px;
+    top: 2px;
+  }
+
+  .arrow-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+
+  .arrow-cell {
+    text-align: center;
+    font-size: 20px;
+    color: #C1C7D0;
+  }
+
+  .arrow-cell:last-child {
+    visibility: hidden;
+  }
+</style>
+</head>
+<body>
+
+<div class="disclaimer">
+  📅 <strong>Strawman, not a commitment.</strong> Order is the strategic position; specific dates are illustrative.
+</div>
+
+<div class="timeline">
+
+  <div class="phase-card foundation">
+    <div class="phase-header">
+      <div class="phase-title">1 — Foundation</div>
+      <span class="phase-lozenge lozenge-blue">Q4 FY26</span>
+      <p class="phase-why">Forced by UBP. These are the immediate foundations that must land before UBP turns on and before the old Standard→Premium trigger disappears.</p>
+    </div>
+    <hr class="phase-divider">
+    <ul class="phase-items">
+      <li>Allowances designed at 90/90/80 percentiles</li>
+      <li>Margin model fortified with Deal Desk</li>
+      <li>Trial conversion defaults to Standard</li>
+      <li>AI-led onboarding for low-touch</li>
+      <li>HT qualification motion begins</li>
+      <li>Enterprise moves to contact sales</li>
+      <li>Extended Std→Prem signal model</li>
+      <li>On-call placement decided</li>
+    </ul>
+  </div>
+
+  <div class="phase-card identity">
+    <div class="phase-header">
+      <div class="phase-title">2 — Identity</div>
+      <span class="phase-lozenge lozenge-purple">Q1 FY27</span>
+      <p class="phase-why">Premium has to mean something before pricing power moves. Identity is the bridge between the foundation work and monetisation.</p>
+    </div>
+    <hr class="phase-divider">
+    <ul class="phase-items">
+      <li>ITAM in Premium</li>
+      <li>AIOps in Premium</li>
+      <li>AI Control Tower narrative and initial capabilities land</li>
+      <li>Low-touch Premium upsell for signal-ready Standard customers</li>
+    </ul>
+  </div>
+
+  <div class="phase-card repricing">
+    <div class="phase-header">
+      <div class="phase-title">3 — Repricing</div>
+      <span class="phase-lozenge lozenge-yellow">FY27</span>
+      <p class="phase-why">Once identity is real, pricing and mix can move. This is where the strategy starts showing up in monetisation.</p>
+    </div>
+    <hr class="phase-divider">
+    <ul class="phase-items">
+      <li>Standard +10%</li>
+      <li>Premium list raised to $65–75</li>
+      <li>Allowance enforcement at all tiers</li>
+      <li>Differential agent pricing for non-IT</li>
+      <li>Enterprise add-on launched</li>
+      <li>Enterprise pricing removed from website</li>
+    </ul>
+  </div>
+
+  <div class="phase-card differentiation">
+    <div class="phase-header">
+      <div class="phase-title">4 — Differentiation</div>
+      <span class="phase-lozenge lozenge-green">FY28+</span>
+      <p class="phase-why">This is the post-DC-migration world. Enterprise needs a new structural reason to exist, and that reason is AI governance.</p>
+    </div>
+    <hr class="phase-divider">
+    <ul class="phase-items">
+      <li>Enterprise governance becomes the primary Enterprise pull</li>
+            <li>Channel / partner motion redesigned</li>
+    </ul>
+  </div>
+
+</div>
+
+</body>
+</html>
