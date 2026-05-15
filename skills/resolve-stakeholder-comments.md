@@ -9,7 +9,7 @@ This skill governs how to process feedback comments left by stakeholders (not Ja
 ## Step 1: Read All Comments + Page Content
 
 1. Fetch the page with comments: `get_confluence_page(page_url, get_comments=true, output_file="tmp_rovodev_stakeholder_comments.html")`
-2. Filter to the stakeholder's comments (match on name or AAID — not Jason's AAID `5c3e7bb19760f569b628a312`)
+2. Filter to the stakeholder's comments (match on name or AAID — not Jason's AAID `[YOUR_ATLASSIAN_ACCOUNT_ID]`)
 3. List every comment with: location (inline vs footer), quoted text (if inline), and the comment body
 4. Read the full page content so you understand the context each comment refers to
 

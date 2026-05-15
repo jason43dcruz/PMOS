@@ -238,7 +238,7 @@ Apply these whenever drafting anything that will be shared — Slack posts, Link
 - **"may never" not "never".** Don't overclaim certainty. "We may never have tested this manually" is honest. "We never would have found this" is not — we ran a systematic analysis, not an exhaustive one.
 - **Statistical claims need caveats.** If a stat comes from the discovery cohort (not a holdout), say so. "In our cohort" not "of all users." Don't present in-sample stats as out-of-sample predictions.
 - **Posts are teasers, not substitutes.** Slack and LinkedIn posts drive to the doc. The analysis, methodology, and caveats live in Confluence. The post makes someone want to click — it doesn't give them everything.
-- **No jargon in public-facing content.** Internal acronyms (PQL, HT/LT, CEE, ServCo) mean nothing outside Atlassian. Spell out or replace before anything goes external.
+- **No jargon in public-facing content.** Internal acronyms (PQL, HT/LT, CEE, [YOUR PRODUCT]) mean nothing outside Atlassian. Spell out or replace before anything goes external.
 - **Atlassian-safe by default.** No internal financials, customer names, signal names, lift scores, or confidential strategy details in LinkedIn or external posts. Specifics stay in Confluence.
 
 ## When in Doubt

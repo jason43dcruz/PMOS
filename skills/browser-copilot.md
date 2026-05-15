@@ -4,7 +4,7 @@ Use playwright-cli to give an AI assistant eyes on a live browser session. The a
 
 ## When to use this
 
-- Configuring unfamiliar admin screens (JSM, Assets, Jira, Confluence)
+- Configuring unfamiliar admin screens ([YOUR PRODUCT], Assets, Jira, Confluence)
 - Debugging UI state or layout issues
 - Walking through multi-step setup wizards
 - Learning a new tool by having the assistant explain what it sees
@@ -172,7 +172,7 @@ Opens a dashboard showing all active browser sessions with live screencasts. You
 ## Prompt recipes
 
 ### Assets / CMDB configuration
-> Open a browser to my JSM Assets page. Take a snapshot and tell me: what object schema am I looking at, what object types exist, and what attributes are configured on the currently selected type. Don't change anything.
+> Open a browser to my [YOUR PRODUCT] Assets page. Take a snapshot and tell me: what object schema am I looking at, what object types exist, and what attributes are configured on the currently selected type. Don't change anything.
 
 ### Jira project settings
 > Navigate to my Jira project settings. Snapshot the page and walk me through each settings section. For each one, tell me what it controls and whether the current configuration looks standard or unusual.
@@ -188,8 +188,8 @@ Opens a dashboard showing all active browser sessions with live screencasts. You
 Name sessions to keep different workflows separate:
 
 ```bash
-playwright-cli -s=assets open https://jason-jsm.atlassian.net/jira/assets --headed
-playwright-cli -s=jira-admin open https://jason-jsm.atlassian.net/jira/settings --headed
+playwright-cli -s=assets open https://[YOUR_ATLASSIAN_SITE]/jira/assets --headed
+playwright-cli -s=jira-admin open https://[YOUR_ATLASSIAN_SITE]/jira/settings --headed
 playwright-cli list   # see both sessions
 ```
 
@@ -263,7 +263,7 @@ When a workflow requires both, follow this template:
 
 **Example — Create a request type with custom form:**
 ```
-API:  Create request type via JSM REST API → get request type ID
+API:  Create request type via [YOUR PRODUCT] REST API → get request type ID
 GAP:  Form builder has no API — must configure in UI
 Browser: Open request type settings → snapshot → add fields one by one
 Browser: Snapshot to confirm form looks right
@@ -474,7 +474,7 @@ playwright-cli click $UPDATE_REF
 
 ### API-first principle
 
-**Use APIs for CRUD operations, browser for recording/uploading.** Deleting a request type via the JSM REST API is one call; via the browser it's 4 clicks + confirmation + error-prone ref hunting. Reserve the browser for:
+**Use APIs for CRUD operations, browser for recording/uploading.** Deleting a request type via the [YOUR PRODUCT] REST API is one call; via the browser it's 4 clicks + confirmation + error-prone ref hunting. Reserve the browser for:
 - Visual workflows that need to be *seen* (recording demos)
 - File uploads (no API support)
 - Reading data not available via API

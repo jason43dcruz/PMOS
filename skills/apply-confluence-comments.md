@@ -11,7 +11,7 @@ When the user says something like:
 ## How it works
 
 1. **Read the page comments** using `get_confluence_page(page_url, get_comments=true)`.
-2. **Filter to only the user's comments.** Match on the user's AAID (`5c3e7bb19760f569b628a312`). Ignore comments from other people.
+2. **Filter to only the user's comments.** Match on the user's AAID (`[YOUR_ATLASSIAN_ACCOUNT_ID]`). Ignore comments from other people.
 3. **Read the page content** using `get_confluence_page(page_url, output_file="tmp_rovodev_comment_edits.html")`.
 4. **For each of the user's comments:**
    - If it's an **inline comment** (attached to specific text): find the referenced text and apply the feedback directly.
@@ -41,10 +41,10 @@ When the user says something like:
 ## Example workflow
 
 ```
-User: "Apply my comments on https://hello.atlassian.net/wiki/spaces/~349409947/pages/6856213431"
+User: "Apply my comments on [YOUR_PERSONAL_CONFLUENCE_SPACE]
 
 Agent:
-1. Reads comments → finds 4 from user (AAID 5c3e7bb19760f569b628a312)
+1. Reads comments → finds 4 from user (AAID [YOUR_ATLASSIAN_ACCOUNT_ID])
 2. Reads page content to tmp_rovodev_comment_edits.html
 3. Applies changes:
    - Inline on "rocks not pebbles": "Change to 'value pillars, not feature lists'" → applied

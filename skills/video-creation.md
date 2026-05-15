@@ -186,7 +186,7 @@ env -i HOME="$HOME" PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin" LANG="
 ### Known F5-TTS mispronunciations (fix phonetically in text)
 - "morning" → sometimes pronounced "mourning" — try "mor-ning" or restructure sentence
 - Em-dashes `—` → confuse phonemizer — replace with `, ` or `. `
-- Abbreviations → spell out (e.g. "PM" → "product manager", "JSM" → "J S M")
+- Abbreviations → spell out (e.g. "PM" → "product manager", "[YOUR PRODUCT]" → "J S M")
 
 ### Venv locations
 - F5-TTS: `projects/pm-os-video/.venv-f5/`

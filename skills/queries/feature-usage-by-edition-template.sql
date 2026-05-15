@@ -6,7 +6,7 @@
 --
 -- To add a new feature: swap the feature_active CTE filter.
 -- Reference: Core Action Mapping page
---   https://hello.atlassian.net/wiki/spaces/IDEA/pages/4755626010/Core+action+mapping
+--   [YOUR_CONFLUENCE_URL]
 --
 -- KEY FACTS:
 --   product_key in entitlement snapshot = 'jira-servicedesk.ondemand' (NOT 'jira-servicedesk')
@@ -98,7 +98,7 @@ ORDER BY r.edition;
 --   AND event_name = 'majorIncidentLozenge viewed (client)'
 --   AND issue_attributes.itsm_practice LIKE '%incident-management%'
 
--- AUTOMATION (JSM rules)
+-- AUTOMATION ([YOUR PRODUCT] rules)
 --   AND event_name = 'ruleExecutor ruleFinished'
 --   -- Note: operational event type; filter attributes['projectType'] = 'serviceDesk' if available
 

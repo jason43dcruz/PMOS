@@ -20,7 +20,7 @@ import argparse
 import subprocess
 import tempfile
 
-sys.path.insert(0, '/Users/jdcruz/.rovodev/voice-deps')
+sys.path.insert(0, '/Users/[YOUR_USERNAME]/.rovodev/voice-deps')
 
 KOKORO_MODEL = os.path.expanduser("~/kokoro-models/kokoro-v1.0.onnx")
 KOKORO_VOICES = os.path.expanduser("~/kokoro-models/voices-v1.0.bin")
@@ -83,7 +83,7 @@ def render_html_slides(html_path, output_dir, slide_ids, width=1920, height=1080
     """Render HTML slides to PNGs headlessly using node playwright. No browser window opens."""
     import textwrap
     script = textwrap.dedent(f"""
-        import {{ chromium }} from '/Users/jdcruz/jdcruz-prototype/node_modules/playwright/index.mjs';
+        import {{ chromium }} from '/Users/[YOUR_USERNAME]/[YOUR_PROTOTYPE_DIR]/node_modules/playwright/index.mjs';
         const browser = await chromium.launch({{ headless: true }});
         const context = await browser.newContext({{ viewport: {{ width: {width}, height: {height} }}, deviceScaleFactor: 1 }});
         const page = await context.newPage();

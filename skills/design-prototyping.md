@@ -8,14 +8,14 @@
 |---|---|
 | Quick interactive concept (slider, calculator, comparison) | `skills/prototyping.md` (HTML prototype) |
 | Full product prototype on staging with Atlaskit + AI | **This skill** (design prototyping) |
-| Forge app deployed to a real Jira/JSM site | `skills/forge-apps.md` |
+| Forge app deployed to a real Jira/[YOUR PRODUCT] site | `skills/forge-apps.md` |
 | Presentation deck | `skills/html-deck-style-guide.md` |
 
 ## Setup
 
 **Repo:** [servco-prototyping](https://bitbucket.org/atlassian/servco-prototyping/src/main/)  
-**Local path:** `~/jdcruz-prototype`  
-**Guide:** [Setting up your own prototype environment in staging](https://hello.atlassian.net/wiki/spaces/~734276749/pages/6714948448/Setting+up+your+own+prototype+environment+in+staging)  
+**Local path:** `~/[YOUR_PROTOTYPE_DIR]`  
+**Guide:** [Setting up your own prototype environment in staging]([YOUR_CONFLUENCE_URL])  
 **Slack:** #ai-experimentation-kit
 
 ## Creating a New Prototype
@@ -23,7 +23,7 @@
 No re-clone needed. Branch-per-prototype model — each branch gets its own Micros service and live URL.
 
 ```bash
-cd ~/jdcruz-prototype
+cd ~/[YOUR_PROTOTYPE_DIR]
 git checkout main && git pull
 git checkout -b jdcruz-{name}   # branch name ≤26 chars total
 ./scripts/setup-branch.sh       # creates Micros service + deploy token (needs VPN)
@@ -42,7 +42,7 @@ git push -u origin jdcruz-{name}
 
 | Prototype | Branch | Live URL |
 |---|---|---|
-| HAM Prototype | `jdcruz-prototype` | [jsm-ham-jdcruz-prototype.us-west-2.platdev.atl-paas.net/jsm/](https://jsm-ham-jdcruz-prototype.us-west-2.platdev.atl-paas.net/jsm/) |
+| HAM Prototype | `[YOUR_PROTOTYPE_DIR]` | [jsm-ham-[YOUR_PROTOTYPE_DIR].us-west-2.platdev.atl-paas.net/jsm/](https://jsm-ham-[YOUR_PROTOTYPE_DIR].us-west-2.platdev.atl-paas.net/jsm/) |
 
 ## Constraints
 
@@ -50,4 +50,4 @@ git push -u origin jdcruz-{name}
 - `setup-branch.sh` requires VPN connection
 - Deploy takes ~15 minutes after push
 - Prototypes run on Atlassian staging — not production
-- The workspace folder is `~/jdcruz-prototype`, which is OUTSIDE the PMOS workspace. Navigate there via bash.
+- The workspace folder is `~/[YOUR_PROTOTYPE_DIR]`, which is OUTSIDE the PMOS workspace. Navigate there via bash.

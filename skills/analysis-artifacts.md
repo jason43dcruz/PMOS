@@ -46,7 +46,7 @@ Skip the dashboard when:
 ### Path convention
 
 ```
-/Users/jdcruz@atlassian.com/rovo/{analysis-slug}
+/Users/[YOUR_EMAIL]/rovo/{analysis-slug}
 ```
 
 Use lowercase, hyphenated slugs. Examples:
@@ -129,7 +129,7 @@ Dashboards live in workspace but are identified by display name:
 ```
 
 Examples:
-- `JSM Edition Strategy — Dashboard`
+- `[YOUR PRODUCT] Edition Strategy — Dashboard`
 - `Premium Downgrade Trends — Dashboard`
 
 ### Dashboard gotchas
@@ -231,7 +231,7 @@ If no dashboard was created, omit that row and add a note: *"Dashboard not creat
 
 After creating a notebook, the URL pattern is:
 ```
-https://socrates-workbench-01.cloud.databricks.com/#workspace/Users/jdcruz@atlassian.com/rovo/{analysis-slug}
+https://socrates-workbench-01.cloud.databricks.com/#workspace/Users/[YOUR_EMAIL]/rovo/{analysis-slug}
 ```
 
 ### Dashboard URL format
@@ -260,7 +260,7 @@ When refreshing an existing analysis:
 When completing any data analysis, run through this:
 
 - [ ] Queries written and validated
-- [ ] Notebook created/updated at `/Users/jdcruz@atlassian.com/rovo/{slug}`
+- [ ] Notebook created/updated at `/Users/[YOUR_EMAIL]/rovo/{slug}`
 - [ ] Dashboard created/updated (if time-series, comparisons, or distributions present)
 - [ ] Dashboard published (if created)
 - [ ] Confluence page created/updated with narrative

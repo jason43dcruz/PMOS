@@ -39,7 +39,7 @@ Subagents have no access to conversation history or the workspace — only what 
 
 Wait for all sub-agents to complete. Then:
 - Synthesise their outputs into a single message
-- Send **one** Slack DM to `DFFF0J94G`
+- Send **one** Slack DM to `[YOUR_SLACK_CHANNEL_ID]`
 - Log the run to `Knowledge/session-log.md`
 
 ### 4. Handle failures gracefully

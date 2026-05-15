@@ -27,9 +27,9 @@ If `index/episodes.md` is **missing** at the canonical path and no override was 
 1. **`GOALS.md`** — tie feedback to stated goals; flag misalignment.
 2. **`Knowledge/product-context.md`** — stakeholder tendencies, audience.
 3. **`skills/think-like-me.md`** — how this PM reasons; match their bar for rigor.
-4. **`Knowledge/knowledge-refs.md`** — pull live Confluence via MCP when the doc references canonical internal pages (edition strategy, ServCo decisions, etc.).
+4. **`Knowledge/knowledge-refs.md`** — pull live Confluence via MCP when the doc references canonical internal pages (edition strategy, [YOUR PRODUCT] decisions, etc.).
 5. **Data-backed claims:** **`skills/data-discovery.md`** + **Secoda MCP** — verify or flag unsubstantiated numbers; never present guesses as internal facts.
-6. **Packaging / positioning / ServCo:** If the doc touches SKU, edition, or Services & Co, check **ASoW ServCo Decisions** (and children) per `AGENTS.md` — do not endorse proposals that contradict published decisions without flagging.
+6. **Packaging / positioning / [YOUR PRODUCT]:** If the doc touches SKU, edition, or Services & Co, check **ASoW [YOUR PRODUCT] Decisions** (and children) per `AGENTS.md` — do not endorse proposals that contradict published decisions without flagging.
 
 **Brainstorming rule:** Check sources before asserting org facts; if inferring, say so.
 
@@ -88,7 +88,7 @@ One **`createConfluenceFooterComment`** with the full synthesis — same scaffol
 
 ## Quality bar
 
-**Do:** Name guests when citing Lenny transcripts; verify internal/data claims against Secoda or cited sources; respect ServCo/edition decision boundaries.
+**Do:** Name guests when citing Lenny transcripts; verify internal/data claims against Secoda or cited sources; respect [YOUR PRODUCT]/edition decision boundaries.
 
 **Don't:** Invent quotes; post inline comments without verifying match counts; soften the one critical gap.
 

@@ -17,7 +17,7 @@ prompt: "Reference the agent file path so Rovo Dev reads the full instructions."
 ## Conventions
 
 - Lowercase hyphenated filenames: `agents/my-agent.md`
-- Include delivery method (Slack DM to `DFFF0J94G`, file output, or in-session)
+- Include delivery method (Slack DM to `[YOUR_SLACK_CHANNEL_ID]`, file output, or in-session)
 - Include a tools table listing MCP tools the agent needs
 
 ---
