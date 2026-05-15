@@ -28,7 +28,7 @@ Run all three simultaneously as parallel sub-tasks using `invoke_subagents`.
 | Knowledge Scout | `agents/knowledge-scout.md` | Recent docs, pages, or Jira issues relevant to the meeting topic |
 
 In addition to the sub-agents, the orchestrator itself should:
-- Read the stakeholder's decision profile from `Knowledge/` if one exists (e.g. `Knowledge/anand-narayanan-decision-profile.md`, `Knowledge/shamik-sharma-decision-profile.md`)
+- Read the stakeholder's decision profile from `Knowledge/` if one exists (e.g. `Knowledge/[your-stakeholder]-decision-profile.md`, `Knowledge/[your-executive]-decision-profile.md`)
 - Check Google Calendar for the specific meeting details (time, attendees, description, any linked docs)
 - Pull recent Slack DMs with the stakeholder (last 14 days) using `channel_get_message`
 

@@ -23,7 +23,7 @@ prompt: "Run the industry trends digest agent defined in agents/industry-digest.
 
 ## Sources to Scan
 
-1. **Confluence (hello.atlassian.net)** — Search for recent blog posts, announcements, strategy updates using `search_confluence_using_cql` with keywords tied to topics above.
+1. **Confluence ([YOUR_CONFLUENCE_HOST])** — Search for recent blog posts, announcements, strategy updates using `search_confluence_using_cql` with keywords tied to topics above.
 2. **Atlassian Community & Developer Docs** — Use `atlassian_docs_search` to find recent announcements and thought leadership.
 3. **Slack channels** — Scan key channels for shared articles, links, and discussions about industry trends using `channel_get_message`.
    - `C0305F27406` — Industry knowledge sources (primary external signal channel)

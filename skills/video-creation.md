@@ -212,7 +212,7 @@ projects/pm-os-video/
 │   ├── seg-01.wav
 │   └── seg-15.wav
 ├── output/
-│   └── PMOS - Jason D Cruz.mp4       # Final video
+│   └── PMOS - [YOUR NAME].mp4       # Final video
 └── PMOS_Voice_Clone_Colab.ipynb      # Colab notebook
 ```
 

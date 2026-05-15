@@ -18,7 +18,7 @@
 When the user says "daily check" or "what do I need to respond to?":
 
 1. Pull messages from all three Slack channels (last 24-48 hours)
-2. Check for mentions of the user (Jason D Cruz / WFGD4510D / jdcruz)
+2. Check for mentions of the user ([YOUR NAME] / [YOUR_SLACK_USER_ID] / [YOUR_USERNAME])
 3. Check for comments on user's recent Confluence pages
 4. Pull recent work context (last 7 days) for Confluence/Jira/PR activity
 5. Summarize:

@@ -14,7 +14,7 @@ Synthesize customer feedback from multiple channels into a single Voice of Custo
 
 ## Sources to Scan
 
-### Jira Issues (hello.atlassian.net — SCDR project)
+### Jira Issues ([YOUR_CONFLUENCE_HOST] — SCDR project)
 - Customer-reported bugs with CUSTOMER label
 - Feature requests with HIGH impact or HIGH frequency mentions
 - Filter by created date: past 7 days

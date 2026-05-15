@@ -32,9 +32,9 @@ Keep this list updated as you discover DM channels. Use these to pull recent mes
 
 | Person | Email | Slack User ID | DM Channel ID |
 |---|---|---|---|
-| Shilpa Koneru | skoneru@atlassian.com | U01MM6PL4SW | D0A9UNCF55Y |
-| Eleanor Groeneveld | egroeneveld@atlassian.com | U02PCLS72G0 | TBD |
-| Sage Ray | sray@atlassian.com | U04DRP39N8G | TBD |
+| [STAKEHOLDER_1] | [STAKEHOLDER_EMAIL] | [SLACK_USER_ID] | [SLACK_DM_CHANNEL] |
+| [STAKEHOLDER_2] | [STAKEHOLDER_EMAIL] | [SLACK_USER_ID] | TBD |
+| [STAKEHOLDER_3] | [STAKEHOLDER_EMAIL] | [SLACK_USER_ID] | TBD |
 
 _(Add new DM channel IDs here as they are discovered during prep runs.)_
 

@@ -10,7 +10,7 @@ For a generic version that works outside Atlassian, see `setup-pm-os-public.md`.
 
 1. **Rovo Dev** — VS Code extension or CLI (`acli rovodev run`)
 2. **Git repo** — Bitbucket workspace (or any git host)
-3. **Atlassian account** — Confluence (hello.atlassian.net), Jira, Slack
+3. **Atlassian account** — Confluence ([YOUR_CONFLUENCE_HOST]), Jira, Slack
 4. **Secoda API key** — for data catalogue integration
 
 ### Available Integrations

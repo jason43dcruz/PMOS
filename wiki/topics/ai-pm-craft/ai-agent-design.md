@@ -56,7 +56,7 @@ Agents are different from **one-off analyses**. An agent is:
 **Trigger:** Every Monday 8am  
 **Context:** Reads session-log.md (what we accomplished last week?), efficiency-patterns.md (what failed?)  
 **Work:** Pulls recent Jira/Confluence updates, analyzes project activity, builds recommendation list  
-**Delivery:** Slack message to `DFFF0J94G` with: "Here's what happened, here's what needs attention"  
+**Delivery:** Slack message to `[YOUR_SLACK_CHANNEL_ID]` with: "Here's what happened, here's what needs attention"  
 **Observability:** Logs to session-log.md: "Monday intel drop — X new items, Y recurring"  
 
 ---
@@ -199,7 +199,7 @@ Agents are stored in `agents/*.md` with YAML frontmatter:
 name: my-agent
 schedule: daily-8am
 delivery: slack
-channel: DFFF0J94G
+channel: [YOUR_SLACK_CHANNEL_ID]
 ---
 
 ## Agent: My Agent

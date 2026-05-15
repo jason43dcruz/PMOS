@@ -24,7 +24,7 @@ Track open decisions, nudge on stale ones, and maintain a running decision log. 
 - Extract decisions made and things rejected from recent sessions
 - Pull any open questions or parking lots flagged as "pending decision"
 
-### Jira (hello.atlassian.net)
+### Jira ([YOUR_CONFLUENCE_HOST])
 - Look for issues with "decision" or "DACI" labels
 - Check decision-related epics or portfolios
 - Filter by status: not done, blocked waiting for decision

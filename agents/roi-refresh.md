@@ -102,4 +102,4 @@ Log to session-log.md:
 ## Target Page
 
 - **URL:** [YOUR_PERSONAL_CONFLUENCE_SPACE]
-- **Space:** Personal space (~349409947)
+- **Space:** Personal space (~[YOUR_PERSONAL_SPACE_ID])

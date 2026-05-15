@@ -13,11 +13,11 @@ prompt: "Run the follow-up tracker agent defined in agents/follow-up-tracker.md.
 
 | Person | Confluence (CQL) | Slack DM Channel ID |
 |---|---|---|
-| **Anand Narayanan** | `creator = "712020:f8c6ac7c-3caa-4d29-bb3c-77f7901aa00d" AND lastModified > now("-1d")` | `D06J8HWTY6R` |
+| **[YOUR_MANAGER]** | `creator = "712020:f8c6ac7c-3caa-4d29-bb3c-77f7901aa00d" AND lastModified > now("-1d")` | `D06J8HWTY6R` |
 | **Eleanor** | `creator.displayName ~ "Eleanor" AND lastModified > now("-1d")` | `D06T3EWKBLB` |
 | **Matt Chapman** | `creator.displayName = "Matt Chapman" AND lastModified > now("-1d")` | `D07NPTQ3XQX` |
 | **Mark O'Shea** | `creator.displayName = "Mark O'Shea" AND lastModified > now("-1d")` | `D064W037MD1` |
-| **[YOU]'s own meeting notes** | `creator = currentUser() AND lastModified > now("-1d") AND space = "~349409947"` | — |
+| **[YOU]'s own meeting notes** | `creator = currentUser() AND lastModified > now("-1d") AND space = "~[YOUR_PERSONAL_SPACE_ID]"` | — |
 
 > **DM channel IDs:** If a channel ID is unknown or returns an error, use `slack_workspace_search_user_by_email` to find the user, then `channel_get_message` with the DM channel. Save any newly discovered IDs back to this table.
 

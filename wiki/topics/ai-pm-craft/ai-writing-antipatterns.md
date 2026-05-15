@@ -126,4 +126,4 @@ The best PM writing feels like you're talking to a trusted colleague — no corp
 ## Related pages
 - [[prompt-engineering-for-pms]] — How to write prompts that get useful output
 - [[llm-patterns]] — Patterns that work for AI-assisted PM work
-- [write-like-me.md (workspace guide)](https://hello.atlassian.net/wiki/spaces/~349409947/pages/XXXXX) — Full style guide for this PM OS
+- [write-like-me.md (workspace guide)](https://[YOUR_CONFLUENCE_HOST]/wiki/spaces/~[YOUR_PERSONAL_SPACE_ID]/pages/XXXXX) — Full style guide for this PM OS

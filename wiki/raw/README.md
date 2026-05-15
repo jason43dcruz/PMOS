@@ -38,7 +38,7 @@ Drop source material here. PDFs, exported Confluence pages, meeting notes, trans
 
 | Source | Location | What it covers |
 |---|---|---|
-| [YOUR PRODUCT] Edition Strategy Notebook | `/Users/jdcruz@atlassian.com/rovo/jsm-edition-strategy` | SQL notebook — feature usage, cohort analysis, edition movement |
+| [YOUR PRODUCT] Edition Strategy Notebook | `/Users/[YOUR_USERNAME]@[YOUR_DOMAIN]/rovo/jsm-edition-strategy` | SQL notebook — feature usage, cohort analysis, edition movement |
 | WAC Pricing Snapshot | `Knowledge/snapshots/wac-pricing-snapshot.md` | Point-in-time pricing reference |
 
 ### Secoda (live — fetch via Secoda MCP)
@@ -57,8 +57,8 @@ Drop source material here. PDFs, exported Confluence pages, meeting notes, trans
 | Upgrade Signal System Structure | `Knowledge/upgrade-signal-system-structure.md` | System architecture: agent + notebook + state tables |
 | Upgrade Signal Automation Contract | `Knowledge/upgrade-signal-automation-contract.md` | Unattended workflow contract for autoresearch |
 | PSR HT Strategy Implications | `Knowledge/psr-ht-strategy-edition-implications.md` | Shamik PSR meeting takeaways — ITOM, cross-flow, module packaging |
-| Anand Decision Profile | `Knowledge/anand-narayanan-decision-profile.md` | How Anand thinks, decision format, persuasion playbook |
-| Shamik Decision Profile | `Knowledge/shamik-sharma-decision-profile.md` | How Shamik thinks, end-state-first framing, SAM quantification |
+| Anand Decision Profile | `Knowledge/[your-stakeholder]-decision-profile.md` | How Anand thinks, decision format, persuasion playbook |
+| Shamik Decision Profile | `Knowledge/[your-executive]-decision-profile.md` | How Shamik thinks, end-state-first framing, SAM quantification |
 | Knowledge References | `Knowledge/knowledge-refs.md` | Master index of all live source URLs and pointers |
 
 ### Local Strategy Drafts

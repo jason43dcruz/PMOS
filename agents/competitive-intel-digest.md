@@ -34,7 +34,7 @@ Secondary: Salesforce Service Cloud, PagerDuty, xMatters, Moveworks
 - Look for threads discussing competitor moves, lost deals, customer concerns
 - Capture sales team reactions and customer feedback about competitor features
 
-### Jira (hello.atlassian.net)
+### Jira ([YOUR_CONFLUENCE_HOST])
 - Filter for issues tagged with "competitive-pressure" or "win-loss"
 - Look for feature requests driven by competitor threat
 - Check for lost-deal root cause analysis

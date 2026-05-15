@@ -6,9 +6,9 @@ Set up your PM operating system in one session. This is the **master build** —
 
 1. **Rovo Dev** — VS Code extension or CLI (`acli rovodev run`)
 2. **Git repo** — Bitbucket workspace for version control
-3. **Atlassian account** — Confluence (hello.atlassian.net), Jira, Slack
+3. **Atlassian account** — Confluence ([YOUR_CONFLUENCE_HOST]), Jira, Slack
 4. **Secoda API key** — for data catalogue integration
-5. **Demo JSM site** — jason-jsm.atlassian.net (for living-service-desk and service-collection-bootstrap agents)
+5. **Demo JSM site** — [YOUR_ATLASSIAN_SITE] (for living-service-desk and service-collection-bootstrap agents)
 
 ## Setup Guide Variants
 
@@ -86,7 +86,7 @@ Daily (8am):
 - industry-digest — Scans sources for PM/industry news. Delivers top 3 reads + data point + provocation via Slack DM.
 
 Hourly:
-- living-service-desk — Creates and updates realistic tickets on demo JSM site (jason-jsm.atlassian.net). [Optional]
+- living-service-desk — Creates and updates realistic tickets on demo JSM site ([YOUR_ATLASSIAN_SITE]). [Optional]
 - meeting-prep — Checks calendar for meetings in next 60 min. Sends prep via Slack DM 15–30 min before.
 
 Every 2 hours (work hours):
@@ -168,7 +168,7 @@ All 24 agents follow shared patterns:
 - **Confidence scoring:** Tag outputs with [HIGH], [MEDIUM], [LOW]
 - **Memory & deduplication:** Read previous output before generating. Don't resurface unless materially updated. Flag recurring items (3+ days).
 - **Observability:** Log every run to Knowledge/session-log.md with item counts and key metrics
-- **Delivery:** Slack DM to channel `DFFF0J94G`
+- **Delivery:** Slack DM to channel `[YOUR_SLACK_CHANNEL_ID]`
 - **Scheduling:** launchd plist at `agents/com.pmos.agents.plist` — runs orchestrator hourly; 8am triggers daily agents
 
 Schedule options: `daily-8am`, `hourly`, `every-2h-workhours`, `weekly-monday-8am`, `weekly-friday-4pm`, `manual`
@@ -183,7 +183,7 @@ Schedule options: `daily-8am`, `hourly`, `every-2h-workhours`, `weekly-monday-8a
 | **data-refresh** | Daily 8am | Standalone | Checks Secoda docs for staleness (>7 days). Re-runs SQL, publishes to Confluence. Only Slacks if something meaningfully changed. |
 | **setup-guide-sync** | Daily 8am | Standalone | Scans full workspace. Updates all three setup guides + README to reflect current state. Pushes to main. |
 | **industry-digest** | Daily 8am | Standalone | Scans Confluence, Atlassian docs, Slack, Secoda for PM/industry news. Delivers top 3 reads + data point + provocation. |
-| **living-service-desk** | Hourly | Standalone | Creates and updates realistic tickets on demo JSM site (jason-jsm.atlassian.net). 1–2 new tickets + 2–3 updates per run. [Optional] |
+| **living-service-desk** | Hourly | Standalone | Creates and updates realistic tickets on demo JSM site ([YOUR_ATLASSIAN_SITE]). 1–2 new tickets + 2–3 updates per run. [Optional] |
 | **meeting-prep** | Hourly | Standalone | Checks calendar for meetings in next 60 min. Gathers context from Confluence/Jira/Slack. Sends prep 15–30 min before. |
 | **slack-action-scanner** | Every 2h | Standalone | Scans Slack DMs for meeting requests and commitments. Queues meeting requests to pending-meetings.md (never auto-books). Adds tasks to BACKLOG.md. |
 | **customer-feedback-synthesis** | Weekly Mon 8am | Standalone | Synthesises VOC from Jira, Slack, Secoda, Confluence. Delivers themed brief with confidence tags. Publishes to Confluence. |

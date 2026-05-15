@@ -25,10 +25,10 @@ No re-clone needed. Branch-per-prototype model — each branch gets its own Micr
 ```bash
 cd ~/[YOUR_PROTOTYPE_DIR]
 git checkout main && git pull
-git checkout -b jdcruz-{name}   # branch name ≤26 chars total
+git checkout -b [YOUR_USERNAME]-{name}   # branch name ≤26 chars total
 ./scripts/setup-branch.sh       # creates Micros service + deploy token (needs VPN)
-git push -u origin jdcruz-{name}
-# → live at servco-jdcruz-{name}.us-west-2.platdev.atl-paas.net in ~15 min
+git push -u origin [YOUR_USERNAME]-{name}
+# → live at servco-[YOUR_USERNAME]-{name}.us-west-2.platdev.atl-paas.net in ~15 min
 ```
 
 ## What's Available
