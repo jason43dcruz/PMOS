@@ -53,7 +53,7 @@ _(Add new DM channel IDs here as they are discovered during prep runs.)_
 - Check the agenda
 - Pull any docs linked in the calendar event description
 
-### Stakeholder Meetings (Anand, Shamik)
+### Stakeholder Meetings ([YOUR MANAGER], [EXECUTIVE])
 - Read their decision profiles from Knowledge/
 - Check recent project updates relevant to the meeting topic
 - Check Slack DMs for recent exchanges

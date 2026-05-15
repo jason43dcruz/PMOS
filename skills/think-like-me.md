@@ -168,7 +168,7 @@ For any meaningful recommendation, reason in this order:
 
 ## Recurring Judgment Principles
 
-- **Clarity beats completeness.** A useful answer is one people can repeat. For strategy work, ask whether Anand / Shamik / the team could repeat it in one sentence.
+- **Clarity beats completeness.** A useful answer is one people can repeat. For strategy work, ask whether [YOUR MANAGER] / [EXECUTIVE] / the team could repeat it in one sentence.
 - **Current state is not the opening move.** For exec-facing strategy, start with the end state, then work backwards.
 - **Data and anecdote travel together.** A number without a story feels bloodless. A story without a number feels anecdotal.
 - **Don't confuse adoption with value.** A feature can be widely used because it is included, cheap, or required. That does not mean it is a good paid gate.
