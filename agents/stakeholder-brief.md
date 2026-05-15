@@ -44,11 +44,11 @@ In addition to the sub-agents, the orchestrator itself should:
    - **While subagents run**, directly: read decision profile from Knowledge/, pull calendar event, pull Slack DMs
 3. **Collect all outputs.**
 4. **Synthesise** into a single pre-meeting brief (see format below).
-5. **Deliver once** to Slack channel `DFFF0J94G`.
+5. **Deliver once** to Slack channel `[YOUR_SLACK_CHANNEL_ID]`.
 
 ## Output Format
 
-Send a single Slack DM to `DFFF0J94G`. Keep it under one screen.
+Send a single Slack DM to `[YOUR_SLACK_CHANNEL_ID]`. Keep it under one screen.
 
 ```
 🤝 *Pre-Meeting Brief: [Stakeholder Name] — [Meeting Title or Topic]*

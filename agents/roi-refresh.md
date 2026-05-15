@@ -7,7 +7,7 @@ prompt: "Run the ROI refresh agent defined in agents/roi-refresh.md. Count activ
 # Agent Task: ROI Refresh
 
 **Schedule:** Weekly Friday 4pm (end-of-week snapshot)
-**Purpose:** Keep the [Rovo Dev ROI Calculator](https://hello.atlassian.net/wiki/spaces/~349409947/pages/6820436356/Rovo+Dev+ROI+Calculator) up to date with real activity data from `Knowledge/session-log.md`.
+**Purpose:** Keep the [Rovo Dev ROI Calculator]([YOUR_PERSONAL_CONFLUENCE_SPACE]) up to date with real activity data from `Knowledge/session-log.md`.
 
 ## How It Works
 
@@ -38,7 +38,7 @@ grep -c 'Decision Reminder' Knowledge/session-log.md
 grep -c 'Skill Synthesiser' Knowledge/session-log.md
 grep -c 'Atlassian Repo Sync\|atlassian-repo-sync' Knowledge/session-log.md
 grep -c 'Stakeholder Brief' Knowledge/session-log.md
-grep -c 'Service Collection Bootstrap' Knowledge/session-log.md
+grep -c '[YOUR PRODUCT] Bootstrap' Knowledge/session-log.md
 
 # Artifact counts
 grep -iE 'published|page created|page updated|created.*page' Knowledge/session-log.md | wc -l   # Confluence pages
@@ -89,7 +89,7 @@ Log to session-log.md:
 
 ## Slack Delivery
 
-- **Always DM** after refresh (channel `DFFF0J94G`): "📊 ROI Refresh: Updated to {days}-day period. {strategic_sessions} strategic sessions, {agent_runs} agent runs. [Notable: {biggest change since last week}]"
+- **Always DM** after refresh (channel `[YOUR_SLACK_CHANNEL_ID]`): "📊 ROI Refresh: Updated to {days}-day period. {strategic_sessions} strategic sessions, {agent_runs} agent runs. [Notable: {biggest change since last week}]"
 
 ## Infrastructure
 
@@ -101,5 +101,5 @@ Log to session-log.md:
 
 ## Target Page
 
-- **URL:** https://hello.atlassian.net/wiki/spaces/~349409947/pages/6820436356/Rovo+Dev+ROI+Calculator
+- **URL:** [YOUR_PERSONAL_CONFLUENCE_SPACE]
 - **Space:** Personal space (~349409947)

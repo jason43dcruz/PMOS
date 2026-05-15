@@ -11,7 +11,7 @@ prompt: "Run the competitive intelligence digest agent defined in agents/competi
 Weekly, Monday 8am
 
 ## Purpose
-Monitor the competitive landscape and deliver a ranked digest of competitor activity relevant to Service Collection / JSM. This agent surfaces market movements that could impact our positioning, pricing, or feature roadmap.
+Monitor the competitive landscape and deliver a ranked digest of competitor activity relevant to [YOUR PRODUCT] / JSM. This agent surfaces market movements that could impact our positioning, pricing, or feature roadmap.
 
 ## Competitors to Monitor
 Primary: ServiceNow, Zendesk, Freshworks, BMC, Ivanti, ManageEngine
@@ -100,7 +100,7 @@ Direct links to sources: Confluence pages, news articles, product announcements,
 ## Delivery
 
 ### Slack DM
-Send to channel `DFFF0J94G` with formatted blocks:
+Send to channel `[YOUR_SLACK_CHANNEL_ID]` with formatted blocks:
 - Headline in bold
 - Competitor Activity as numbered list with confidence tags
 - Win/Loss Signals highlighted

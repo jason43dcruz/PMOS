@@ -1,7 +1,7 @@
 ---
 name: Morning Briefing
 schedule: daily-8am
-prompt: "Run the morning briefing agent defined in agents/morning-briefing.md. Scan Confluence mentions, Jira updates, and Slack DMs from the last 24 hours. Send the formatted briefing as a Slack DM to channel DFFF0J94G. Keep it short — only items that need my attention."
+prompt: "Run the morning briefing agent defined in agents/morning-briefing.md. Scan Confluence mentions, Jira updates, and Slack DMs from the last 24 hours. Send the formatted briefing as a Slack DM to channel [YOUR_SLACK_CHANNEL_ID]. Keep it short — only items that need my attention."
 ---
 
 # Agent Task: Morning Briefing
@@ -26,17 +26,17 @@ prompt: "Run the morning briefing agent defined in agents/morning-briefing.md. S
 - **Issues you're watching** with updates
 - **@mentions** in issue comments
 
-### L1 KR: Service Collection Uplift (P0)
+### L1 KR: [YOUR PRODUCT] Uplift (P0)
 - Run the SQL query from `skills/queries/servco-uplift-kr.sql` via Socrates async query (heavy query, use `submit_async_query`)
 - Report: % paid orgs uplifted, % free orgs uplifted, date of data
 - Compare against monthly milestone targets in `skills/l1-okr-scoring.md` (monthly targets are progress milestones, not scoring thresholds)
-- The OKR score (0.7/0.8/0.9/1.0) is based on end-of-half thresholds (94%/95%/99%/100% paid orgs) AND which cohorts are complete. Read the latest update on the [FY26 O2KR3 Scoring Working Page](https://hello.atlassian.net/wiki/spaces/ITSOL/pages/5677624041) for the current score and cohort status
+- The OKR score (0.7/0.8/0.9/1.0) is based on end-of-half thresholds (94%/95%/99%/100% paid orgs) AND which cohorts are complete. Read the latest update on the [FY26 O2KR3 Scoring Working Page]([YOUR_CONFLUENCE_SPACE]) for the current score and cohort status
 - Report: current %, monthly milestone comparison, current OKR score, active cohort status
 - Flag if behind monthly milestone or if cohorts are blocked/at risk
 
 ### Delivery
-- **Send briefing as Slack DM** to channel `DFFF0J94G` (Jason's DM with self/agent)
-- Slack user ID: `WFGD4510D`
+- **Send briefing as Slack DM** to channel `[YOUR_SLACK_CHANNEL_ID]` ([YOU]'s DM with self/agent)
+- Slack user ID: `[YOUR_SLACK_USER_ID]`
 - **Keep it short:** 5 bullets max. Headline + 3-4 items that need attention + one FYI. Skip anything that doesn't require action today.
 - If there are more than 5 items, prioritise by urgency and link to a Confluence page for the rest.
 
@@ -49,7 +49,7 @@ prompt: "Run the morning briefing agent defined in agents/morning-briefing.md. S
 | Confluence page comments | Atlassian MCP: `get_confluence_page` with `get_comments = true` for watched pages |
 | Jira updates | Atlassian MCP: `search_jira_using_jql` with `(assignee = currentUser() OR watcher = currentUser()) AND updated >= -1d` |
 | L1 KR data | Socrates MCP: `submit_async_query` with SQL from `skills/queries/servco-uplift-kr.sql`, then `get_query_results` |
-| Deliver briefing | Slack MCP: `channel_create_message` to DM channel `DFFF0J94G` |
+| Deliver briefing | Slack MCP: `channel_create_message` to DM channel `[YOUR_SLACK_CHANNEL_ID]` |
 
 ## Output
 

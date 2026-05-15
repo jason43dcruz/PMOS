@@ -42,7 +42,7 @@ For each session entry in Knowledge/session-log.md:
 ## Output Format
 
 ### Slack Message (keep it tight!)
-Send to channel `DFFF0J94G` with 5 sections:
+Send to channel `[YOUR_SLACK_CHANNEL_ID]` with 5 sections:
 
 #### 1. Efficiency Score
 - **Weekly score: X/10** (10 = no wasted iterations, clean execution; 1 = severe iteration bloat)
@@ -110,8 +110,8 @@ When a recurring failure is clearly caused by a fixable agent prompt or instruct
   Pattern fixed: [pattern name from section 3]
 ```
 
-5. **Only self-patch if confident** — HIGH confidence patterns (3+ occurrences, clear root cause, obvious fix). For MEDIUM confidence, flag for Jason's review instead of auto-applying.
-6. **Never patch** `agents/efficiency-audit.md` itself — flag any self-issues for Jason to review manually.
+5. **Only self-patch if confident** — HIGH confidence patterns (3+ occurrences, clear root cause, obvious fix). For MEDIUM confidence, flag for [YOU]'s review instead of auto-applying.
+6. **Never patch** `agents/efficiency-audit.md` itself — flag any self-issues for [YOU] to review manually.
 
 ## Tools
 
@@ -120,7 +120,7 @@ When a recurring failure is clearly caused by a fixable agent prompt or instruct
 | Read session log | `open_files` on `Knowledge/session-log.md` |
 | Read efficiency patterns | `open_files` on `Knowledge/efficiency-patterns.md` |
 | Update patterns file | `find_and_replace_code` on `Knowledge/efficiency-patterns.md` |
-| Send Slack report | Slack MCP: `channel_create_message` to `DFFF0J94G` |
+| Send Slack report | Slack MCP: `channel_create_message` to `[YOUR_SLACK_CHANNEL_ID]` |
 
 ## Analysis Framework
 

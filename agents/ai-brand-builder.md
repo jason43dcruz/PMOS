@@ -8,13 +8,13 @@ prompt: "Run the AI brand builder agent defined in agents/ai-brand-builder.md. R
 
 **Schedule:** Weekly, Friday 4pm
 **Type:** Scan → Synthesise → Draft → Deliver for review
-**Delivery:** Slack DM to `DFFF0J94G` — drafts only, never auto-post
+**Delivery:** Slack DM to `[YOUR_SLACK_CHANNEL_ID]` — drafts only, never auto-post
 
 ## Purpose
 
-Jason is building a reputation as the PM who genuinely understands AI — not as a talking head, but as someone *doing it*. He runs an AI-native PM workflow, ships financial models via agents, spars strategy with LLMs, applies autoresearch techniques to real product problems, and constantly refines how he works.
+[YOU] is building a reputation as the PM who genuinely understands AI — not as a talking head, but as someone *doing it*. He runs an AI-native PM workflow, ships financial models via agents, spars strategy with LLMs, applies autoresearch techniques to real product problems, and constantly refines how he works.
 
-This agent surfaces the best content opportunities from that work each week and drafts them into posts — for LinkedIn (external) and Confluence/Slack (internal Atlassian). Every piece should be grounded in something real Jason did, built, or found this week.
+This agent surfaces the best content opportunities from that work each week and drafts them into posts — for LinkedIn (external) and Confluence/Slack (internal Atlassian). Every piece should be grounded in something real [YOU] did, built, or found this week.
 
 ---
 
@@ -23,7 +23,7 @@ This agent surfaces the best content opportunities from that work each week and 
 These are the richest veins. Look for signals in each:
 
 ### 1. PM OS / AI-Native Workflow
-*The meta-layer — how Jason works is itself the content.*
+*The meta-layer — how [YOU] works is itself the content.*
 - New or improved agents in `agents/` — what problem did it solve?
 - Changes to AGENTS.md / memory system — what pattern was optimised?
 - New skills in `skills/` — what capability was added?
@@ -47,17 +47,17 @@ These are the richest veins. Look for signals in each:
 - **Example posts:** "The one prompt pattern every PM should steal", "AI wrote my strategy doc. Here's what I had to fix."
 
 ### 4. Curated External AI PM Content
-*Surface great external content + add Jason's original take.*
+*Surface great external content + add [YOU]'s original take.*
 - New posts/papers from: Andrej Karpathy, Simon Willison, Chip Huyen, Hamel Husain, Shreya Shankar, Swyx, Lenny Rachitsky
 - Relevant Lenny transcripts (check `Knowledge/lennys-podcast-transcripts/index/` for AI, product-strategy, data-analytics topics)
 - New AI model releases or agent framework papers that have PM implications
-- **The take matters more than the share.** Draft Jason's 3-sentence POV, not a repost.
+- **The take matters more than the share.** Draft [YOU]'s 3-sentence POV, not a repost.
 
 ---
 
 ## Sources to Scan
 
-### Internal (what Jason did this week)
+### Internal (what [YOU] did this week)
 1. **session-log.md** (`Knowledge/session-log.md`) — scan the last 7 days for: new agents built, frameworks created, data analyses run, strategy decisions made, interesting tool patterns
 2. **agents/** — any new or modified agent files (git diff or file timestamps)
 3. **Knowledge/ai-writing-antipatterns.md** — new entries or updates
@@ -80,7 +80,7 @@ Deliver **2–3 content packages** per week. Each package has:
 📦 PACKAGE [N] — [Original | Curated] — [LinkedIn | Internal | Both]
 
 💡 HOOK: [The insight or moment that makes this worth posting]
-📍 SOURCE: [What Jason did / what the external content is]
+📍 SOURCE: [What [YOU] did / what the external content is]
 
 📱 LINKEDIN POST (ready to copy-paste, ~150-250 words):
 [Full draft. First-person. Specific. No corporate-speak. Ends with a question or provocation.]
@@ -91,7 +91,7 @@ Deliver **2–3 content packages** per week. Each package has:
 📝 LONG-FORM NEEDED? [Yes — Confluence draft / No — post stands alone]
 [If yes: 3-bullet outline of what the Confluence post would cover]
 
-⚡ EFFORT TO POST: [Low — copy-paste ready | Medium — needs Jason's personal story added | High — needs more context]
+⚡ EFFORT TO POST: [Low — copy-paste ready | Medium — needs [YOU]'s personal story added | High — needs more context]
 ```
 
 ---
@@ -107,7 +107,7 @@ Deliver **2–3 content packages** per week. Each package has:
 
 ---
 
-## Writing Tone (Jason's voice)
+## Writing Tone ([YOU]'s voice)
 
 Read `skills/write-like-me.md` before drafting any post. Key markers:
 - First person, direct, no hedging
@@ -161,7 +161,7 @@ Here are this week's content opportunities. Review, edit, and post when ready.
 | `slack_channel_get_message` | Scan #AIPM-design-hacks for shared content |
 | `web_search` | Find external AI PM content from key authors |
 | `open_files` / `bash` | Read session-log.md, agents/, Knowledge/ for internal signals |
-| `channel_create_message` | Deliver to Slack DM (DFFF0J94G) |
+| `channel_create_message` | Deliver to Slack DM ([YOUR_SLACK_CHANNEL_ID]) |
 
 ---
 

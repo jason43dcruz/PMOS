@@ -15,9 +15,9 @@ prompt: "Run the setup guide sync agent defined in agents/setup-guide-sync.md. R
 
 | Build | Template file | Repo | Remote | Audience |
 |---|---|---|---|---|
-| **Master** | `templates/setup-pm-os.md` | `jira-service-management/pm-os` (Bitbucket) | `origin` | Jason only — full fidelity |
+| **Master** | `templates/setup-pm-os.md` | `jira-service-management/pm-os` (Bitbucket) | `origin` | [YOU] only — full fidelity |
 | **Atlassian** | `templates/setup-pm-os-atlassian.md` | `atlassian/pmosatlassian` (Bitbucket) | `atlassian` | Any Atlassian PM — all internal tooling, no personal IDs |
-| **Public** | `templates/setup-pm-os-public.md` | `jason43dcruz/PMOS` (GitHub) | `github` | External PMs — tool-agnostic, no Atlassian internals |
+| **Public** | `templates/setup-pm-os-public.md` | `[YOUR_GITHUB_USERNAME]/PMOS` (GitHub) | `github` | External PMs — tool-agnostic, no Atlassian internals |
 
 ---
 
@@ -32,13 +32,13 @@ git remote -v
 # Expected remotes:
 # origin    git@bitbucket.org:jira-service-management/pm-os.git
 # atlassian git@bitbucket.org:atlassian/pmosatlassian.git
-# github    git@github.com:jason43dcruz/PMOS.git
+# github    git@github.com:[YOUR_GITHUB_USERNAME]/PMOS.git
 
 # If 'atlassian' remote is missing, add it:
 git remote add atlassian git@bitbucket.org:atlassian/pmosatlassian.git
 
 # If 'github' remote is missing, add it:
-git remote add github git@github.com:jason43dcruz/PMOS.git
+git remote add github git@github.com:[YOUR_GITHUB_USERNAME]/PMOS.git
 ```
 
 **If the Atlassian repo doesn't exist yet:** Create it at https://bitbucket.org/atlassian/ → Create Repository → name: `pmosatlassian`, private. Then add the remote above.
@@ -222,7 +222,7 @@ if git remote get-url github &>/dev/null; then
     else
         echo "⚠️ GitHub SSH key not configured. Staging branch 'github-update' on origin instead."
         git push origin HEAD:github-update --force
-        echo "→ Jason: run 'git push github github-update:main' manually when SSH is available."
+        echo "→ [YOU]: run 'git push github github-update:main' manually when SSH is available."
     fi
 else
     echo "⚠️ Remote 'github' not configured. Run one-time setup first."

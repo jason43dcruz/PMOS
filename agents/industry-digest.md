@@ -48,7 +48,7 @@ The Slack DM must be **5 items or fewer**:
 
 No "Also Worth a Look" section in Slack. If there are bonus links, save them for a weekly rollup or Confluence page. The daily digest should be consumable in 30 seconds.
 
-**Slack DM to channel DFFF0J94G**
+**Slack DM to channel [YOUR_SLACK_CHANNEL_ID]**
 
 ```
 📰 **Industry Digest — [DATE]**

@@ -87,7 +87,7 @@ Verbal decisions spotted in Slack/meetings that need formal documentation:
 ## Delivery
 
 ### Slack DM
-Send to channel `DFFF0J94G` with formatted blocks:
+Send to channel `[YOUR_SLACK_CHANNEL_ID]` with formatted blocks:
 - **Open Decisions** as a numbered list (with age callouts for old ones)
 - **Stale Decisions** in bold with 🚨 emoji
 - **Decisions Made & Rejected** as a summary

@@ -30,7 +30,7 @@ prompt: "Run the knowledge scout agent defined in agents/knowledge-scout.md. Sca
 
 | Space | Key | Why |
 |---|---|---|
-| IT Solutions | ITSOL | Your home space — edition strategy, packaging, ServCo decisions |
+| IT Solutions | ITSOL | Your home space — edition strategy, packaging, [YOUR PRODUCT] decisions |
 | Product Management | PM | PM craft, frameworks, best practices across Atlassian |
 | AI & Intelligence | AAI | AI packaging, Rovo, AI strategy |
 

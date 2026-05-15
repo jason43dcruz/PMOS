@@ -29,11 +29,11 @@ Run all four of these as parallel sub-tasks using `invoke_subagents`. Each sub-a
 2. **Collect outputs.** Wait for all four to complete. Capture their outputs.
 3. **Do NOT send individual Slack messages** for each sub-agent. Suppress individual delivery — the orchestrator owns the single Slack send.
 4. **Synthesise.** Combine the four outputs into one structured Slack message (see format below).
-5. **Deliver once** to Slack channel `DFFF0J94G`.
+5. **Deliver once** to Slack channel `[YOUR_SLACK_CHANNEL_ID]`.
 
 ## Output Format
 
-Send a single Slack DM to `DFFF0J94G`. Keep it scannable — aim for under 2 minutes to read.
+Send a single Slack DM to `[YOUR_SLACK_CHANNEL_ID]`. Keep it scannable — aim for under 2 minutes to read.
 
 ```
 🗓️ *Monday Intel Drop — [DATE]*
@@ -42,7 +42,7 @@ Send a single Slack DM to `DFFF0J94G`. Keep it scannable — aim for under 2 min
 [From Morning Briefing: 1-3 items requiring a response today. One line each: who, what, link.]
 [If none: "Nothing urgent. Clean inbox to start the week."]
 
-*📊 L1 KR: ServCo Uplift*
+*📊 L1 KR: [YOUR PRODUCT] Uplift*
 [From Morning Briefing: current %, monthly milestone status, OKR score. One line.]
 
 *⚔️ Competitive Pulse*

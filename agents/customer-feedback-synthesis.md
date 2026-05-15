@@ -70,13 +70,13 @@ Direct links to source tickets, Slack threads, Secoda docs, Confluence pages.
 ## Delivery
 
 ### Slack DM
-Send to channel `DFFF0J94G` with formatted blocks:
+Send to channel `[YOUR_SLACK_CHANNEL_ID]` with formatted blocks:
 - Headline in bold
 - Themes as a bulleted list with confidence tags
 - Links at the bottom
 
 ### Confluence
-Publish as a child of the user's personal space (https://hello.atlassian.net/wiki/spaces/~349409947)
+Publish as a child of the user's personal space ([YOUR_PERSONAL_CONFLUENCE_SPACE])
 - **Title format:** "Voice of Customer — Week of {date}" (e.g., "Voice of Customer — Week of Mar 24")
 - **Always overwrite** the previous week's page (don't create v2)
 - Tag the page with `voice-of-customer`, `weekly`, and the current week number

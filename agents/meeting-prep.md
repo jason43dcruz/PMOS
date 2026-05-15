@@ -1,7 +1,7 @@
 ---
 name: Meeting Prep
 schedule: hourly
-prompt: "Run the meeting prep agent defined in agents/meeting-prep.md. FIRST: check the current time in Australia/Melbourne. If it is before 8:00am or after 4:30pm, OR if it is a Saturday or Sunday — stop immediately and do nothing. Otherwise: check my Google Calendar for meetings in the next 60 minutes. If there are NO meetings with real attendees in the next 60 minutes, stop immediately — do NOT send any Slack message. Only send a Slack DM to channel DFFF0J94G if there is at least one actionable meeting requiring prep."
+prompt: "Run the meeting prep agent defined in agents/meeting-prep.md. FIRST: check the current time in Australia/Melbourne. If it is before 8:00am or after 4:30pm, OR if it is a Saturday or Sunday — stop immediately and do nothing. Otherwise: check my Google Calendar for meetings in the next 60 minutes. If there are NO meetings with real attendees in the next 60 minutes, stop immediately — do NOT send any Slack message. Only send a Slack DM to channel [YOUR_SLACK_CHANNEL_ID] if there is at least one actionable meeting requiring prep."
 ---
 
 # Agent Task: Meeting Prep
@@ -74,7 +74,7 @@ _(Add new DM channel IDs here as they are discovered during prep runs.)_
 | Read meeting pages | Atlassian MCP: `get_confluence_page` |
 | Search for context | Atlassian MCP: `search_confluence_using_cql` |
 | Check Jira | Atlassian MCP: `search_jira_using_jql` |
-| Send prep | Slack MCP: `channel_create_message` to DM channel `DFFF0J94G` |
+| Send prep | Slack MCP: `channel_create_message` to DM channel `[YOUR_SLACK_CHANNEL_ID]` |
 
 ## Output Format
 
@@ -88,7 +88,7 @@ Short, scannable. For each meeting:
 
 ## Delivery
 
-- Slack DM to channel `DFFF0J94G`
+- Slack DM to channel `[YOUR_SLACK_CHANNEL_ID]`
 - Send 15-30 minutes before the meeting
 - If multiple meetings in the window, send one message covering all of them
 - **Keep it short:** 3-5 bullet points per meeting. Context, key question, one suggested talking point. No lengthy backgrounds.

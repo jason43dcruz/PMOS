@@ -39,7 +39,7 @@ The Slack DM must be **5 bullets or fewer**:
 
 Keep it to names and nudges. No full tables in Slack.
 
-**Slack DM to channel DFFF0J94G**
+**Slack DM to channel [YOUR_SLACK_CHANNEL_ID]**
 
 ```
 📋 **Relationship Health Report — Week of [DATE]**
